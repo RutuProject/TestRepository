@@ -86,6 +86,11 @@ public class Data_Entry_TestNG_runner {
 	//	Assert.fail();
 	}
 	
+	@Test(priority=4)
+	public void test5() {
+		System.out.println(driver.getTitle());
+	}
+	
 	@AfterMethod
 	public void aftermethod(ITestResult result) throws IOException {
 		System.out.println("After Method");
