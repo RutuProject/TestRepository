@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Rutu_Selenium_Testing\Meesho\meesho_regression.xml</span>
+                    <span>C:\Users\Hruturaj\git\TestRepository\Meesho\meesho_regression.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -163,72 +163,19 @@
                   <a name="test1">
                   </a> <!-- test1 -->
                   <span class="method-name">test1</span>
-                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-564FQL3&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
-	at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
-	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
-	at org.openqa.selenium.json.Json.toJson(Json.java:42)
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at Meesho_Pom_Classes.Meesho_Shopping.shopping(Meesho_Shopping.java:47)
-	at Meesho_TestNG_Runner.Meesho_Shopping_Runner.test1(Meesho_Shopping_Runner.java:67)
+                  <div class="stack-trace">java.io.FileNotFoundException: test-output\Screenshots\Meesho_Shopping- 11-04-2023 15.45.08.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:184)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at Utility_Classes.Util1.screenshot(Util1.java:28)
+	at Meesho_TestNG_Runner.Meesho_Shopping_Runner.test1(Meesho_Shopping_Runner.java:71)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-564FQL3&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
-Driver info: driver.version: RemoteWebDriver
-		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
-		at org.openqa.selenium.json.Json.toJson(Json.java:44)
-		... 22 more
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
-	... 34 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;search-results&apos;]//div[2]&quot;}
-  (Session info: chrome=111.0.5563.147)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-564FQL3&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Hruturaj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 94026adfe15ac58e95e484ff1d901e09
-*** Element info: {Using=xpath, value=//div[@class=&apos;search-results&apos;]//div[2]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
-	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
-	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
-	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
-	... 36 more
-... Removed 17 stack frames
+... Removed 10 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -245,7 +192,7 @@ Session ID: 94026adfe15ac58e95e484ff1d901e09
                   <a name="test2">
                   </a> <!-- test2 -->
                   <span class="method-name">test2</span>
-                  <div class="stack-trace">java.io.FileNotFoundException: test-output\Screenshots\Rutu- 04-04-2023 17.36.18.jpeg (The system cannot find the path specified)
+                  <div class="stack-trace">java.io.FileNotFoundException: test-output\Screenshots\Rutu- 11-04-2023 15.45.08.jpeg (The system cannot find the path specified)
 	at java.base/java.io.FileOutputStream.open0(Native Method)
 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
 	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:235)
@@ -288,7 +235,7 @@ Session ID: 94026adfe15ac58e95e484ff1d901e09
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Rutu_Selenium_Testing\Meesho\meesho_regression.xml</span>
+            <span class="header-content">C:\Users\Hruturaj\git\TestRepository\Meesho\meesho_regression.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -343,15 +290,15 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test1')
 data.setCell(0, 2, 'Meesho_TestNG_Runner.Meesho_Shopping_Runner')
-data.setCell(0, 3, 27090);
+data.setCell(0, 3, 16828);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test1')
 data.setCell(1, 2, 'Meesho_TestNG_Runner.Meesho_Sign_Up_Runner')
-data.setCell(1, 3, 10906);
+data.setCell(1, 3, 11038);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'test2')
 data.setCell(2, 2, 'Meesho_TestNG_Runner.Meesho_Sign_Up_Runner')
-data.setCell(2, 3, 80);
+data.setCell(2, 3, 143);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'test2')
 data.setCell(3, 2, 'Meesho_TestNG_Runner.Meesho_Shopping_Runner')
@@ -360,7 +307,7 @@ window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -396,65 +343,59 @@ return data;
               <div class="chronological-class-name">Meesho_TestNG_Runner.Meesho_Sign_Up_Runner</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforetest(Chrome)</span>
-                <span class="method-start">10463 ms</span>
+                <span class="method-start">4495 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeclass</span>
+                <span class="method-start">7236 ms</span>
+              </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Meesho_TestNG_Runner.Meesho_Shopping_Runner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">13999 ms</span>
+                <span class="method-start">7283 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Meesho_TestNG_Runner.Meesho_Sign_Up_Runner</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeclass</span>
-                <span class="method-start">14006 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Meesho_TestNG_Runner.Meesho_Shopping_Runner</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">19466 ms</span>
+                <span class="method-start">19526 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test1</span>
-                <span class="method-start">19474 ms</span>
+                <span class="method-start">19537 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Meesho_TestNG_Runner.Meesho_Sign_Up_Runner</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">test1</span>
-                <span class="method-start">26570 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">26570 ms</span>
+                <span class="method-start">21911 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1</span>
+                <span class="method-start">21912 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">aftermethod</span>
-                <span class="method-start">37480 ms</span>
+                <span class="method-start">32954 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">37524 ms</span>
+                <span class="method-start">32956 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">37525 ms</span>
+                <span class="method-start">32957 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">aftermethod</span>
-                <span class="method-start">37607 ms</span>
+                <span class="method-start">33103 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterclass</span>
-                <span class="method-start">37608 ms</span>
+                <span class="method-start">33103 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -463,34 +404,34 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">aftermethod([TestResult name=test1 status=FAILURE method=Meesho_Shopping_Runner.test1()[pri:0, instance:Meesho_T...)</span>
-                <span class="method-start">46618 ms</span>
+                <span class="method-start">36417 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">48235 ms</span>
+                <span class="method-start">36697 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">48240 ms</span>
+                <span class="method-start">36707 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">aftermethod</span>
-                <span class="method-start">48252 ms</span>
+                <span class="method-start">36712 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterclass</span>
-                <span class="method-start">48270 ms</span>
+                <span class="method-start">36716 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">aftertest</span>
-                <span class="method-start">48281 ms</span>
+                <span class="method-start">36733 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Meesho_TestNG_Runner.Meesho_Sign_Up_Runner</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">aftertest</span>
-                <span class="method-start">48287 ms</span>
+                <span class="method-start">36778 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

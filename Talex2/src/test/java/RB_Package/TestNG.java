@@ -1,4 +1,4 @@
-package RB_Test_Package;
+package RB_Package;
 
 import static org.testng.Assert.assertEquals;
 

@@ -49,7 +49,7 @@ public class RB_Home_Page {
 	public void current_day() {
 		date.click();
 		for(int i=0;i<td.size();i++) {
-			if(td.get(i).getText().equals("31")) {
+			if(td.get(i).getText().equals("30")) {
 				td.get(i).click();
 			}
 		}

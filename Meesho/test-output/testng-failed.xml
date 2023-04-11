@@ -4,6 +4,11 @@
   <test thread-count="2" parallel="classes" name="Test(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
+      <class name="Meesho_TestNG_Runner.Meesho_Sign_Up_Runner">
+        <methods>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- Meesho_TestNG_Runner.Meesho_Sign_Up_Runner -->
       <class name="Meesho_TestNG_Runner.Meesho_Shopping_Runner">
         <methods>
           <include name="beforeclass"/>
@@ -16,11 +21,6 @@
           <include name="aftermethod"/>
         </methods>
       </class> <!-- Meesho_TestNG_Runner.Meesho_Shopping_Runner -->
-      <class name="Meesho_TestNG_Runner.Meesho_Sign_Up_Runner">
-        <methods>
-          <include name="aftertest"/>
-        </methods>
-      </class> <!-- Meesho_TestNG_Runner.Meesho_Sign_Up_Runner -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

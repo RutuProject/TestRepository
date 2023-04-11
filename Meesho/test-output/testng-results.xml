@@ -2,61 +2,12 @@
 <testng-results ignored="0" total="4" passed="2" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-04T17:35:31 IST" name="Suite" finished-at="2023-04-04T17:36:19 IST" duration-ms="48302">
+  <suite started-at="2023-04-11T15:44:32 IST" name="Suite" finished-at="2023-04-11T15:45:09 IST" duration-ms="36794">
     <groups>
     </groups>
-    <test started-at="2023-04-04T17:35:31 IST" name="Test" finished-at="2023-04-04T17:36:19 IST" duration-ms="48302">
-      <class name="Meesho_TestNG_Runner.Meesho_Sign_Up_Runner">
-        <test-method is-config="true" signature="beforetest(java.lang.String)[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@402bba4f]" started-at="2023-04-04T17:35:41 IST" name="beforetest" finished-at="2023-04-04T17:35:44 IST" duration-ms="3020" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@402bba4f]" started-at="2023-04-04T17:35:45 IST" name="beforeclass" finished-at="2023-04-04T17:35:58 IST" duration-ms="12564" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method signature="test1()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@402bba4f]" started-at="2023-04-04T17:35:58 IST" name="test1" finished-at="2023-04-04T17:36:08 IST" duration-ms="10906" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@402bba4f]" started-at="2023-04-04T17:35:58 IST" name="beforeMethod" finished-at="2023-04-04T17:35:58 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@402bba4f]" started-at="2023-04-04T17:36:08 IST" name="aftermethod" finished-at="2023-04-04T17:36:08 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@402bba4f]" started-at="2023-04-04T17:36:08 IST" name="beforeMethod" finished-at="2023-04-04T17:36:08 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test2()[pri:1, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@402bba4f]" started-at="2023-04-04T17:36:08 IST" name="test2" finished-at="2023-04-04T17:36:09 IST" duration-ms="80" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@402bba4f]" started-at="2023-04-04T17:36:09 IST" name="aftermethod" finished-at="2023-04-04T17:36:09 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@402bba4f]" started-at="2023-04-04T17:36:09 IST" name="afterclass" finished-at="2023-04-04T17:36:09 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterclass -->
-        <test-method is-config="true" signature="aftertest()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@402bba4f]" started-at="2023-04-04T17:36:19 IST" name="aftertest" finished-at="2023-04-04T17:36:19 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftertest -->
-      </class> <!-- Meesho_TestNG_Runner.Meesho_Sign_Up_Runner -->
+    <test started-at="2023-04-11T15:44:32 IST" name="Test" finished-at="2023-04-11T15:45:09 IST" duration-ms="36794">
       <class name="Meesho_TestNG_Runner.Meesho_Shopping_Runner">
-        <test-method is-config="true" signature="beforetest(java.lang.String)[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@7334aada]" started-at="2023-04-04T17:35:31 IST" name="beforetest" finished-at="2023-04-04T17:35:41 IST" duration-ms="10462" status="PASS">
+        <test-method is-config="true" signature="beforetest(java.lang.String)[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@1d9b7cce]" started-at="2023-04-11T15:44:32 IST" name="beforetest" finished-at="2023-04-11T15:44:37 IST" duration-ms="4495" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,49 +18,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@7334aada]" started-at="2023-04-04T17:35:45 IST" name="beforeclass" finished-at="2023-04-04T17:35:50 IST" duration-ms="5441" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@1d9b7cce]" started-at="2023-04-11T15:44:39 IST" name="beforeclass" finished-at="2023-04-11T15:44:52 IST" duration-ms="12227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@7334aada]" started-at="2023-04-04T17:35:50 IST" name="beforeMethod" finished-at="2023-04-04T17:35:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@1d9b7cce]" started-at="2023-04-11T15:44:52 IST" name="beforeMethod" finished-at="2023-04-11T15:44:52 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@7334aada]" started-at="2023-04-04T17:35:50 IST" name="test1" finished-at="2023-04-04T17:36:18 IST" duration-ms="27090" status="FAIL">
-          <exception class="org.openqa.selenium.json.JsonException">
+        <test-method signature="test1()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@1d9b7cce]" started-at="2023-04-11T15:44:52 IST" name="test1" finished-at="2023-04-11T15:45:08 IST" duration-ms="16828" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-564FQL3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: driver.version: RemoteWebDriver]]>
+              <![CDATA[test-output\Screenshots\Meesho_Shopping- 11-04-2023 15.45.08.jpeg (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-564FQL3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
-at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
-at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
-at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
-at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
-at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
-at org.openqa.selenium.json.Json.toJson(Json.java:42)
-at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
-at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-at Meesho_Pom_Classes.Meesho_Shopping.shopping(Meesho_Shopping.java:47)
-at Meesho_TestNG_Runner.Meesho_Shopping_Runner.test1(Meesho_Shopping_Runner.java:67)
+              <![CDATA[java.io.FileNotFoundException: test-output\Screenshots\Meesho_Shopping- 11-04-2023 15.45.08.jpeg (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+at Utility_Classes.Util1.screenshot(Util1.java:28)
+at Meesho_TestNG_Runner.Meesho_Shopping_Runner.test1(Meesho_Shopping_Runner.java:71)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
@@ -123,69 +54,26 @@ at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:833)
-Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-564FQL3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
-at org.openqa.selenium.json.Json.toJson(Json.java:44)
-... 22 more
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
-... 34 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='search-results']//div[2]"}
-  (Session info: chrome=111.0.5563.147)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-564FQL3', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Hruturaj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 94026adfe15ac58e95e484ff1d901e09
-*** Element info: {Using=xpath, value=//div[@class='search-results']//div[2]}
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy16.getWrappedElement(Unknown Source)
-at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
-at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
-at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
-at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-... 36 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@7334aada]" started-at="2023-04-04T17:36:18 IST" name="aftermethod" finished-at="2023-04-04T17:36:19 IST" duration-ms="1584" status="FAIL">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@1d9b7cce]" started-at="2023-04-11T15:45:08 IST" name="aftermethod" finished-at="2023-04-11T15:45:09 IST" duration-ms="275" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1 status=FAILURE method=Meesho_Shopping_Runner.test1()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@7334aada] output={null}]]]>
+                <![CDATA[[TestResult name=test1 status=FAILURE method=Meesho_Shopping_Runner.test1()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@1d9b7cce] output={null}]]]>
               </value>
             </param>
           </params>
           <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[test-output\Screenshots\Rutu- 04-04-2023 17.36.18.jpeg (The system cannot find the path specified)]]>
+              <![CDATA[test-output\Screenshots\Rutu- 11-04-2023 15.45.08.jpeg (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: test-output\Screenshots\Rutu- 04-04-2023 17.36.18.jpeg (The system cannot find the path specified)
+              <![CDATA[java.io.FileNotFoundException: test-output\Screenshots\Rutu- 11-04-2023 15.45.08.jpeg (The system cannot find the path specified)
 at java.base/java.io.FileOutputStream.open0(Native Method)
 at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
 at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
@@ -218,17 +106,17 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@7334aada]" started-at="2023-04-04T17:36:19 IST" name="beforeMethod" finished-at="2023-04-04T17:36:19 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@1d9b7cce]" started-at="2023-04-11T15:45:09 IST" name="beforeMethod" finished-at="2023-04-11T15:45:09 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test2()[pri:1, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@7334aada]" started-at="2023-04-04T17:36:19 IST" name="test2" finished-at="2023-04-04T17:36:19 IST" duration-ms="0" status="SKIP">
+        <test-method signature="test2()[pri:1, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@1d9b7cce]" started-at="2023-04-11T15:45:09 IST" name="test2" finished-at="2023-04-11T15:45:09 IST" duration-ms="0" status="SKIP">
           <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[test-output\Screenshots\Rutu- 04-04-2023 17.36.18.jpeg (The system cannot find the path specified)]]>
+              <![CDATA[test-output\Screenshots\Rutu- 11-04-2023 15.45.08.jpeg (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: test-output\Screenshots\Rutu- 04-04-2023 17.36.18.jpeg (The system cannot find the path specified)
+              <![CDATA[java.io.FileNotFoundException: test-output\Screenshots\Rutu- 11-04-2023 15.45.08.jpeg (The system cannot find the path specified)
 at java.base/java.io.FileOutputStream.open0(Native Method)
 at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
 at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
@@ -261,19 +149,68 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@7334aada]" started-at="2023-04-04T17:36:19 IST" name="aftermethod" finished-at="2023-04-04T17:36:19 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@1d9b7cce]" started-at="2023-04-11T15:45:09 IST" name="aftermethod" finished-at="2023-04-11T15:45:09 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@7334aada]" started-at="2023-04-04T17:36:19 IST" name="afterclass" finished-at="2023-04-04T17:36:19 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@1d9b7cce]" started-at="2023-04-11T15:45:09 IST" name="afterclass" finished-at="2023-04-11T15:45:09 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-        <test-method is-config="true" signature="aftertest()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@7334aada]" started-at="2023-04-04T17:36:19 IST" name="aftertest" finished-at="2023-04-04T17:36:19 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Shopping_Runner@1d9b7cce]" started-at="2023-04-11T15:45:09 IST" name="aftertest" finished-at="2023-04-11T15:45:09 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
       </class> <!-- Meesho_TestNG_Runner.Meesho_Shopping_Runner -->
+      <class name="Meesho_TestNG_Runner.Meesho_Sign_Up_Runner">
+        <test-method is-config="true" signature="beforetest(java.lang.String)[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@795cd85e]" started-at="2023-04-11T15:44:37 IST" name="beforetest" finished-at="2023-04-11T15:44:39 IST" duration-ms="2645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@795cd85e]" started-at="2023-04-11T15:44:39 IST" name="beforeclass" finished-at="2023-04-11T15:44:54 IST" duration-ms="14675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@795cd85e]" started-at="2023-04-11T15:44:54 IST" name="beforeMethod" finished-at="2023-04-11T15:44:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@795cd85e]" started-at="2023-04-11T15:44:54 IST" name="test1" finished-at="2023-04-11T15:45:05 IST" duration-ms="11038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@795cd85e]" started-at="2023-04-11T15:45:05 IST" name="aftermethod" finished-at="2023-04-11T15:45:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@795cd85e]" started-at="2023-04-11T15:45:05 IST" name="beforeMethod" finished-at="2023-04-11T15:45:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:1, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@795cd85e]" started-at="2023-04-11T15:45:05 IST" name="test2" finished-at="2023-04-11T15:45:05 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@795cd85e]" started-at="2023-04-11T15:45:05 IST" name="aftermethod" finished-at="2023-04-11T15:45:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@795cd85e]" started-at="2023-04-11T15:45:05 IST" name="afterclass" finished-at="2023-04-11T15:45:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Meesho_TestNG_Runner.Meesho_Sign_Up_Runner@795cd85e]" started-at="2023-04-11T15:45:09 IST" name="aftertest" finished-at="2023-04-11T15:45:09 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Meesho_TestNG_Runner.Meesho_Sign_Up_Runner -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

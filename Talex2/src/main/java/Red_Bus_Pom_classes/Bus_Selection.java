@@ -18,10 +18,12 @@ public class Bus_Selection {
 	
 	public Bus_Selection(WebDriver driver) {
 		PageFactory.initElements(driver, this);
+		js=(JavascriptExecutor)driver;
 	}
 	
 	public int bus_booking() {
 		for(int i=0;i<busses.size();i++) {
+			js.executeScript("arguments[0].scrollIntoView();", busses.get(i)); 
 			if(busses.get(i).getText().equals("Konduskar Travels Pvt. Ltd")) {
 				System.out.printf("%s=  ",busses.get(i).getText());
 				return i+1;

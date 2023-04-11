@@ -3,18 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Meesho_TestNG_Runner.Meesho_Shopping_Runner">
+      <class name="RB_Package.Data_Entry_TestNG_runner">
         <methods>
-          <include name="beforeclass"/>
-          <include name="beforeMethod"/>
-          <include name="aftertest"/>
           <include name="test2"/>
-          <include name="test1"/>
-          <include name="afterclass"/>
-          <include name="beforetest"/>
+          <include name="beforeMethod"/>
+          <include name="test4"/>
+          <include name="beforeclass"/>
           <include name="aftermethod"/>
+          <include name="afterclass"/>
         </methods>
-      </class> <!-- Meesho_TestNG_Runner.Meesho_Shopping_Runner -->
+      </class> <!-- RB_Package.Data_Entry_TestNG_runner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
