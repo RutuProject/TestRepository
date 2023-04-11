@@ -89,6 +89,7 @@ public class Data_Entry_TestNG_runner {
 	@Test(priority=4)
 	public void test5() {
 		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
 	}
 	
 	@AfterMethod
